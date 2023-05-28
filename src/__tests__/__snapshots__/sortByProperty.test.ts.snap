@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'asc' returns a sorted array 1`] = `
+[
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+]
+`;
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'asc' returns a sorted array 2`] = `
+[
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+]
+`;
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'asc' returns a sorted array 3`] = `
+[
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+]
+`;
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'desc' returns a sorted array 1`] = `
+[
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+]
+`;
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'desc' returns a sorted array 2`] = `
+[
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+]
+`;
+
+exports[`sortByProperty when given an array of objects, an accessor function, and a direction of 'desc' returns a sorted array 3`] = `
+[
+  {
+    "birthdate": 1994-12-31T23:00:00.000Z,
+    "id": 2,
+    "name": "Jane",
+  },
+  {
+    "birthdate": 1992-12-31T23:00:00.000Z,
+    "id": 3,
+    "name": "Joe",
+  },
+  {
+    "birthdate": 1989-12-31T23:00:00.000Z,
+    "id": 1,
+    "name": "John",
+  },
+]
+`;
